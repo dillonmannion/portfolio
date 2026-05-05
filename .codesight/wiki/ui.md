@@ -2,7 +2,7 @@
 
 > **Navigation aid.** Component inventory and prop signatures extracted via AST. Read the source files before adding props or modifying component logic.
 
-**32 components** (react)
+**33 components** (react)
 
 ## Client Components
 
@@ -32,6 +32,7 @@
 - **Image** — `src/app/opengraph-image.tsx`
 - **Page** — `src/app/page.tsx`
 - **Icons** — `src/components/icons.tsx`
+- **BarRow** — props: label, value, percent, labelWidth — `src/components/lab/bar-row.tsx`
 - **MediaContainer** — props: src, alt, type, className — `src/components/mdx/media-container.tsx`
 - **Navbar** — `src/components/navbar.tsx`
 - **ContactSection** — `src/components/section/contact-section.tsx`

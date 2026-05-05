@@ -10,6 +10,7 @@
 - **Page** — `src/app/page.tsx`
 - **Icons** — `src/components/icons.tsx`
 - **AgentTerminal** [client] — `src/components/lab/agent-terminal.tsx`
+- **BarRow** — props: label, value, percent, labelWidth — `src/components/lab/bar-row.tsx`
 - **GenreClassifier** [client] — `src/components/lab/genre-classifier.tsx`
 - **NixTree** [client] — `src/components/lab/nix-tree.tsx`
 - **PrimateChart** [client] — `src/components/lab/primate-chart.tsx`
