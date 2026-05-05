@@ -22,7 +22,7 @@ export const DATA = {
   description:
     "Operations and systems-implementation builder bridging frontline fulfillment experience with end-to-end delivery of business operations platforms across booking, scheduling, finance, and tax workflows.",
   summary:
-    "I take [projects](/#projects) from discovery to launch — scoping requirements with stakeholders, designing data models, and shipping production systems that handle real traffic and real money. My background in [warehouse operations and customer-facing roles](/#education) taught me how processes break at scale, and I carry that into every system I build: cutting complexity, streamlining repeatable processes, and leaving clear documentation behind. Outside client work I'm in the [lab](/#lab) experimenting with MCP servers, browser extensions, Nix configs, and data analysis.",
+    "I take [projects](/#projects) from discovery to launch — scoping requirements with stakeholders, designing data models, and shipping production systems that handle real traffic and real money. My background in [warehouse operations and customer-facing roles](/#work) taught me how processes break at scale, and I carry that into every system I build: cutting complexity, streamlining repeatable processes, and leaving clear documentation behind. Outside client work I'm in the [lab](/#lab) experimenting with MCP servers, browser extensions, Nix configs, and data analysis.",
   avatarUrl: "/me.png",
   skills: [
     { name: "TypeScript", icon: Typescript },
@@ -81,18 +81,6 @@ export const DATA = {
         "Designed and delivered full-stack business operations platforms for small-business clients, covering booking, scheduling, finance tracking, and tax-deduction workflows. Built a live cabin-rental site with availability calendar and back-office deduction tracking. Shipped a production salon booking system with multi-step scheduling, customer portal, admin dashboard, OAuth, and internationalization in three languages. Developed a multi-tenant SaaS pattern extending the booking core with per-business sites, employee management, and finance modules. Scoped requirements through stakeholder interviews, translated business processes into data models, and maintained CI/CD pipelines on Vercel and Cloudflare.",
     },
     {
-      company: "Amazon",
-      href: "https://amazon.com",
-      badges: [],
-      location: "San Bernardino, CA",
-      title: "Warehouse Associate — Operations Point of Contact",
-      logoUrl: "/amazon.png",
-      start: "Feb 2022",
-      end: "Jul 2023",
-      description:
-        "Managed a team of 30+ associates operating robotic induct stations across multiple shifts. Reduced early-shift attrition by 25% by fostering teamwork and peer communication. Boosted line productivity by ~15% through proactive volume-data sharing with associates. Established streamlined communication protocols between associate teams and central control stations.",
-    },
-    {
       company: "Costco Wholesale",
       href: "https://costco.com",
       badges: [],
@@ -103,6 +91,18 @@ export const DATA = {
       end: "Jan 2026",
       description:
         "Handled high-volume merchandise stocking and inventory rotation during peak holiday season. Collaborated with department leads to maintain floor presentation standards under heavy customer traffic.",
+    },
+    {
+      company: "Amazon",
+      href: "https://amazon.com",
+      badges: [],
+      location: "San Bernardino, CA",
+      title: "Warehouse Associate — Operations Point of Contact",
+      logoUrl: "/amazon.png",
+      start: "Feb 2022",
+      end: "Jul 2023",
+      description:
+        "Managed a team of 30+ associates operating robotic induct stations across multiple shifts. Reduced early-shift attrition by 25% by fostering teamwork and peer communication. Boosted line productivity by ~15% through proactive volume-data sharing with associates. Established streamlined communication protocols between associate teams and central control stations.",
     },
     {
       company: "Premier Swim Academy",
@@ -227,7 +227,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/quantasy.svg",
       video: "",
     },
     {
@@ -236,7 +236,7 @@ export const DATA = {
       dates: "2025 - Present",
       active: true,
       description:
-        "Extended Picasso's core booking system into a multi-tenant SaaS pattern with boutique per-business sites, finance tracking, tax-deduction support, and employee management; Mapped feature-parity gaps against market-leading platforms to prioritize roadmap items.",
+        "Extended Picasso's core booking system into a multi-tenant SaaS pattern with boutique per-business sites, finance tracking, tax-deduction support, and employee management; mapped feature-parity gaps against market-leading platforms to prioritize roadmap items.",
       technologies: [
         "SvelteKit",
         "Supabase",
@@ -251,7 +251,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/fleuron.svg",
       video: "",
     },
     {
@@ -274,7 +274,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/ucdavis-datalab.svg",
       video: "",
     },
     {

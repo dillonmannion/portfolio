@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8f5f0"/>
+      <stop offset="100%" stop-color="#ede8e0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <!-- Decorative floral motifs -->
+  <g opacity="0.08" fill="#8a6e4e">
+    <circle cx="200" cy="200" r="80"/>
+    <circle cx="1080" cy="520" r="100"/>
+    <circle cx="640" cy="100" r="60"/>
+    <circle cx="400" cy="600" r="70"/>
+    <circle cx="900" cy="180" r="50"/>
+  </g>
+  <!-- Ornamental border -->
+  <rect x="60" y="60" width="1160" height="600" rx="4" fill="none" stroke="#8a6e4e" stroke-width="1" opacity="0.2"/>
+  <rect x="70" y="70" width="1140" height="580" rx="2" fill="none" stroke="#8a6e4e" stroke-width="0.5" opacity="0.15"/>
+  <!-- Central ornament -->
+  <g transform="translate(640, 300)" opacity="0.12" fill="#8a6e4e">
+    <ellipse cx="0" cy="-30" rx="40" ry="60"/>
+    <ellipse cx="-35" cy="10" rx="40" ry="60" transform="rotate(-60)"/>
+    <ellipse cx="35" cy="10" rx="40" ry="60" transform="rotate(60)"/>
+  </g>
+  <!-- Title -->
+  <text x="640" y="380" text-anchor="middle" font-family="Georgia, serif" font-size="80" fill="#4a3828" opacity="0.85" letter-spacing="12">FLEURON</text>
+  <line x1="380" y1="410" x2="900" y2="410" stroke="#8a6e4e" stroke-width="1" opacity="0.3"/>
+  <text x="640" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#8a6e4e" opacity="0.5" letter-spacing="6">MULTI-TENANT SALON SAAS</text>
+  <text x="640" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#8a6e4e" opacity="0.35" letter-spacing="4">BOOKING &amp; FINANCE &amp; MANAGEMENT</text>
+</svg>

@@ -7,10 +7,7 @@ const PUBLIC_DIR = path.resolve(__dirname, "../../../public");
 
 function publicFileExists(filePath: string): boolean {
   if (!filePath) return false;
-  const resolved = filePath.startsWith("/")
-    ? path.join(PUBLIC_DIR, filePath)
-    : path.join(PUBLIC_DIR, filePath);
-  return fs.existsSync(resolved);
+  return fs.existsSync(path.join(PUBLIC_DIR, filePath));
 }
 
 describe("resume data — PLAN.md compliance", () => {
@@ -30,8 +27,8 @@ describe("resume data — PLAN.md compliance", () => {
     });
 
     it("summary preserves anchor links", () => {
-      expect(DATA.summary).toContain("/#education");
       expect(DATA.summary).toContain("/#projects");
+      expect(DATA.summary).toContain("/#work");
       expect(DATA.summary).toContain("/#lab");
     });
   });
@@ -249,6 +246,23 @@ describe("resume data — PLAN.md compliance", () => {
       const p = DATA.projects.find((p) => p.title === "Cafepillar");
       expect(p).toBeDefined();
       expect(p!.image).toBeTruthy();
+    });
+
+    it("every project has a hero image", () => {
+      for (const p of DATA.projects) {
+        expect(p.image, `${p.title} has no hero image`).toBeTruthy();
+      }
+    });
+
+    it("every project image points to an existing file", () => {
+      for (const p of DATA.projects) {
+        if (p.image) {
+          expect(
+            publicFileExists(p.image),
+            `Missing image: ${p.image} for ${p.title}`,
+          ).toBe(true);
+        }
+      }
     });
   });
 });

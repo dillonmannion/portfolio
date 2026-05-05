@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="dbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#022851"/>
+      <stop offset="100%" stop-color="#0a1628"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#dbg)"/>
+  <!-- Scatter plot dots -->
+  <g fill="#DAAA00" opacity="0.3">
+    <circle cx="180" cy="420" r="5"/><circle cx="220" cy="380" r="4"/>
+    <circle cx="260" cy="350" r="6"/><circle cx="310" cy="330" r="4"/>
+    <circle cx="340" cy="290" r="5"/><circle cx="390" cy="310" r="3"/>
+    <circle cx="420" cy="260" r="5"/><circle cx="470" cy="240" r="4"/>
+    <circle cx="510" cy="280" r="6"/><circle cx="550" cy="220" r="4"/>
+    <circle cx="590" cy="250" r="5"/><circle cx="640" cy="200" r="3"/>
+    <circle cx="680" cy="230" r="5"/><circle cx="720" cy="190" r="4"/>
+    <circle cx="770" cy="210" r="6"/><circle cx="810" cy="170" r="4"/>
+    <circle cx="860" cy="200" r="5"/><circle cx="900" cy="160" r="3"/>
+    <circle cx="950" cy="180" r="5"/><circle cx="1000" cy="150" r="4"/>
+    <circle cx="1040" cy="170" r="4"/><circle cx="1080" cy="140" r="5"/>
+  </g>
+  <!-- Trend line -->
+  <line x1="160" y1="440" x2="1100" y2="130" stroke="#DAAA00" stroke-width="2" opacity="0.2"/>
+  <!-- Axes -->
+  <line x1="140" y1="120" x2="140" y2="480" stroke="#DAAA00" stroke-width="1" opacity="0.15"/>
+  <line x1="140" y1="480" x2="1120" y2="480" stroke="#DAAA00" stroke-width="1" opacity="0.15"/>
+  <!-- Bar chart (small) -->
+  <g opacity="0.15" fill="#DAAA00">
+    <rect x="200" y="510" width="40" height="80"/>
+    <rect x="260" y="490" width="40" height="100"/>
+    <rect x="320" y="530" width="40" height="60"/>
+    <rect x="380" y="500" width="40" height="90"/>
+    <rect x="440" y="520" width="40" height="70"/>
+  </g>
+  <!-- Title -->
+  <text x="640" y="610" text-anchor="middle" font-family="Georgia, serif" font-size="52" fill="white" opacity="0.9" letter-spacing="4">UC DAVIS DATALAB</text>
+  <text x="640" y="660" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#DAAA00" opacity="0.5" letter-spacing="4">PRIMATE HEALTH RESEARCH — 43,800 RECORDS</text>
+</svg>
