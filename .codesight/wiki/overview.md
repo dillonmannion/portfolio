@@ -15,7 +15,7 @@
 Changes to these files have the widest blast radius across the codebase:
 
 - `src/lib/utils.ts` — imported by **19** files
-- `src/data/resume.tsx` — imported by **11** files
+- `src/data/resume.tsx` — imported by **12** files
 - `src/components/ui/button.tsx` — imported by **6** files
 - `src/components/magicui/blur-fade.tsx` — imported by **4** files
 - `src/components/magicui/flickering-grid.tsx` — imported by **2** files
