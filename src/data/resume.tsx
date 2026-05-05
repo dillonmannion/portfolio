@@ -20,9 +20,9 @@ export const DATA = {
   location: "Rancho Cucamonga, CA",
   locationLink: "https://www.google.com/maps/place/rancho+cucamonga+ca",
   description:
-    "Full-stack developer with a B.S. in Computer Science from UC Davis. I build web apps for real businesses and tinker with AI tooling, data analysis, and Nix configs.",
+    "Operations and systems-implementation builder bridging frontline fulfillment experience with end-to-end delivery of business operations platforms across booking, scheduling, finance, and tax workflows.",
   summary:
-    "I graduated from [UC Davis](/#education) with a B.S. in Computer Science in 2025, after transferring from Chaffey College where I studied Computer Science and Data Science. Since then, I've been building [production web apps](/#projects) for real clients — salon booking systems, short-term rental sites, and fantasy football tools. When I'm not shipping client work, I'm in the [lab](/#lab) experimenting with MCP servers, browser extensions, Nix configs, and data analysis.",
+    "I take [projects](/#projects) from discovery to launch — scoping requirements with stakeholders, designing data models, and shipping production systems that handle real traffic and real money. My background in [warehouse operations and customer-facing roles](/#education) taught me how processes break at scale, and I carry that into every system I build: cutting complexity, streamlining repeatable processes, and leaving clear documentation behind. Outside client work I'm in the [lab](/#lab) experimenting with MCP servers, browser extensions, Nix configs, and data analysis.",
   avatarUrl: "/me.png",
   skills: [
     { name: "TypeScript", icon: Typescript },
@@ -69,28 +69,40 @@ export const DATA = {
 
   work: [
     {
-      company: "Freelance",
+      company: "Independent",
       href: "https://dillonmannion.com",
       badges: [],
       location: "Remote",
-      title: "Full-Stack Web Developer",
-      logoUrl: "",
+      title: "Business Systems Developer",
+      logoUrl: "/fleuron-glyph.svg",
       start: "2024",
       end: "Present",
       description:
-        "Building and deploying production web applications for small businesses. Delivered a short-term rental site for an Alpine Roots Big Bear property, a salon booking app for Picasso Hair Salon, and an in-progress booking and payments platform for Expressions Hair Designs using SvelteKit, Supabase, Drizzle ORM, and Square.",
+        "Designed and delivered full-stack business operations platforms for small-business clients, covering booking, scheduling, finance tracking, and tax-deduction workflows. Built a live cabin-rental site with availability calendar and back-office deduction tracking. Shipped a production salon booking system with multi-step scheduling, customer portal, admin dashboard, OAuth, and internationalization in three languages. Developed a multi-tenant SaaS pattern extending the booking core with per-business sites, employee management, and finance modules. Scoped requirements through stakeholder interviews, translated business processes into data models, and maintained CI/CD pipelines on Vercel and Cloudflare.",
     },
     {
       company: "Amazon",
       href: "https://amazon.com",
       badges: [],
       location: "San Bernardino, CA",
-      title: "Sortation Associate",
+      title: "Warehouse Associate — Operations Point of Contact",
       logoUrl: "/amazon.png",
       start: "Feb 2022",
       end: "Jul 2023",
       description:
-        "Managed a team of 30+ associates operating robotic induct stations. Reduced early shift attrition by 25% by fostering teamwork and peer communication. Boosted productivity by ~15% through proactive volume data sharing. Established streamlined communication protocols between associates and control stations.",
+        "Managed a team of 30+ associates operating robotic induct stations across multiple shifts. Reduced early-shift attrition by 25% by fostering teamwork and peer communication. Boosted line productivity by ~15% through proactive volume-data sharing with associates. Established streamlined communication protocols between associate teams and central control stations.",
+    },
+    {
+      company: "Costco Wholesale",
+      href: "https://costco.com",
+      badges: [],
+      location: "Rancho Cucamonga, CA",
+      title: "Seasonal Merchandise Associate",
+      logoUrl: "/costco.svg",
+      start: "Oct 2025",
+      end: "Jan 2026",
+      description:
+        "Handled high-volume merchandise stocking and inventory rotation during peak holiday season. Collaborated with department leads to maintain floor presentation standards under heavy customer traffic.",
     },
     {
       company: "Premier Swim Academy",
@@ -98,11 +110,11 @@ export const DATA = {
       badges: [],
       location: "Rancho Cucamonga, CA",
       title: "Swim Instructor",
-      logoUrl: "",
+      logoUrl: "/premier-swim.svg",
       start: "Jul 2023",
       end: "Sep 2023",
       description:
-        "Taught swim lessons to children and adults of varying skill levels. Ensured a safe learning environment and built rapport with students and parents.",
+        "Taught swim lessons to children and adults of varying skill levels. Built rapport with students and parents while ensuring a safe learning environment.",
     },
     {
       company: "Wendy's",
@@ -110,23 +122,11 @@ export const DATA = {
       badges: [],
       location: "Rancho Cucamonga, CA",
       title: "Crew Member",
-      logoUrl: "",
+      logoUrl: "/wendys.svg",
       start: "Jul 2023",
       end: "Sep 2023",
       description:
         "Operated grill, fryer, and prep stations under time pressure. Cross-trained on multiple stations and supported the team during peak hours.",
-    },
-    {
-      company: "TPFS Warehouse",
-      href: "",
-      badges: [],
-      location: "Rancho Cucamonga, CA",
-      title: "Warehouse Laborer",
-      logoUrl: "",
-      start: "Sep 2019",
-      end: "Feb 2020",
-      description:
-        "Managed physical inventory handling and warehouse operations.",
     },
   ],
   education: [
@@ -146,24 +146,15 @@ export const DATA = {
       start: "2018",
       end: "2023",
     },
-    {
-      school: "Los Osos High School",
-      href: "https://lososos.etiwanda.org",
-      degree:
-        "GPA 4.04 — Varsity Water Polo Captain, Baseline League MVP, 2nd Team All-CIF, Scholar Athlete",
-      logoUrl: "",
-      start: "2014",
-      end: "2018",
-    },
   ],
   projects: [
     {
-      title: "Alpine Roots Big Bear",
+      title: "Grizzly Getaway",
       href: "https://bigbear-clover-creations.vercel.app",
-      dates: "Jan 2026 - Present",
+      dates: "Jun 2025 - Present",
       active: true,
       description:
-        "A short-term rental website for a Big Bear vacation property. Features property details, photo galleries, availability, and booking integration.",
+        "Live booking, availability, and tax-tracking platform supporting an operating cabin-rental business; integrated back-office workflows for deduction tracking.",
       technologies: [
         "Next.js",
         "TypeScript",
@@ -182,7 +173,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/grizzly-getaway.svg",
       video: "",
     },
     {
@@ -191,11 +182,13 @@ export const DATA = {
       dates: "Jun 2025 - Present",
       active: true,
       description:
-        "A modern salon booking application with service listings, stylist profiles, and appointment scheduling.",
+        "Production multi-step scheduling, customer portal, and admin dashboard for end-to-end service management. Supabase backend with RLS and OAuth, TDD via Vitest and Playwright (90% core coverage), Vercel CI/CD, internationalized in English, Spanish, and Chinese.",
       technologies: [
         "SvelteKit",
         "TypeScript",
-        "TailwindCSS",
+        "Supabase",
+        "Vitest",
+        "Playwright",
         "Vercel",
       ],
       links: [
@@ -210,16 +203,16 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/picasso-hair-salon.svg",
       video: "",
     },
     {
-      title: "Quantasy.ai",
+      title: "Quantasy",
       href: "https://github.com/4Clover/quantasy.ai",
-      dates: "Jan 2026 - Present",
+      dates: "May 2025 - Present",
       active: true,
       description:
-        "Fantasy football tools with algorithmic transparency. VBD rankings, draft assistant, lineup optimization, and trade evaluation with Sleeper API integration and a Balatro-inspired UI.",
+        "Founder-led platform in alpha with ~40 testers; designed core data model and UX for roster management, synthesized user feedback to drive iterative roadmap refinement.",
       technologies: [
         "Next.js",
         "TypeScript",
@@ -238,18 +231,17 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Expressions Hair Designs",
+      title: "Fleuron",
       href: "https://github.com/4Clover/expressions",
-      dates: "Jan 2026 - Present",
+      dates: "2025 - Present",
       active: true,
       description:
-        "Full-featured salon platform with online booking, Square payments integration, Storyblok CMS, and SEO dashboard. Built with a modern SvelteKit stack.",
+        "Extended Picasso's core booking system into a multi-tenant SaaS pattern with boutique per-business sites, finance tracking, tax-deduction support, and employee management; Mapped feature-parity gaps against market-leading platforms to prioritize roadmap items.",
       technologies: [
         "SvelteKit",
         "Supabase",
         "Drizzle ORM",
         "Square API",
-        "Storyblok",
         "Cloudflare Pages",
       ],
       links: [
@@ -263,27 +255,48 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Jurnl",
-      href: "https://github.com/4Clover/Jurnl",
-      dates: "May 2025 - Jun 2025",
+      title: "UC Davis DataLab",
+      href: "https://github.com/4Clover/2025-PrimateHealth-Personal",
+      dates: "Apr 2025 - Jun 2025",
       active: false,
       description:
-        "A digital journaling web app with multiple journals, rich text entries, image support, calendar navigation, and Google OAuth authentication.",
+        "Analyzed 43,800 records across 218 subjects using EDA, PCA, CCA, and SEM in Python and R. Built a Python web app and HTML reference guide so non-statisticians could contribute across the analysis pipeline. Findings presented to DataLab researchers.",
       technologies: [
-        "SvelteKit",
-        "TypeScript",
-        "MongoDB",
-        "Google OAuth",
-        "SCSS",
+        "Python",
+        "R",
+        "Pandas",
+        "Scikit-learn",
       ],
       links: [
         {
           type: "Source",
-          href: "https://github.com/4Clover/Jurnl",
+          href: "https://github.com/4Clover/2025-PrimateHealth-Personal",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
+      video: "",
+    },
+    {
+      title: "Cafepillar",
+      href: "https://github.com/4Clover/Cafepillar",
+      dates: "Sep 2024 - Mar 2025",
+      active: false,
+      description:
+        "Implemented scalable game-state and data-management systems enabling 15 new recipes to be added without code rewrites; reduced feature build time ~30% via OOP patterns (Factory, Observer, Command). Optimized A* pathfinding (~80% reduction in computational overhead) and resolved 100+ Git merge conflicts across a five-person team repository.",
+      technologies: [
+        "Godot",
+        "GDScript",
+        "Git",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/4Clover/Cafepillar",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/cafepillar.svg",
       video: "",
     },
   ],
