@@ -1,0 +1,34 @@
+# Components
+
+- **Image** — props: params — `src/app/blog/[slug]/opengraph-image.tsx`
+- **Blog** — props: params — `src/app/blog/[slug]/page.tsx`
+- **Image** — `src/app/blog/opengraph-image.tsx`
+- **BlogPage** — props: searchParams — `src/app/blog/page.tsx`
+- **RootLayout** — `src/app/layout.tsx`
+- **NotFound** — `src/app/not-found.tsx`
+- **Image** — `src/app/opengraph-image.tsx`
+- **Page** — `src/app/page.tsx`
+- **Icons** — `src/components/icons.tsx`
+- **AgentTerminal** [client] — `src/components/lab/agent-terminal.tsx`
+- **GenreClassifier** [client] — `src/components/lab/genre-classifier.tsx`
+- **NixTree** [client] — `src/components/lab/nix-tree.tsx`
+- **PrimateChart** [client] — `src/components/lab/primate-chart.tsx`
+- **LabCard** [client] — props: title, description, technologies, links — `src/components/lab-card.tsx`
+- **BlurFadeText** [client] — props: text, className, variant, hidden — `src/components/magicui/blur-fade-text.tsx`
+- **BlurFade** [client] — props: className, variant, hidden — `src/components/magicui/blur-fade.tsx`
+- **DEFAULT_MAGNIFICATION** [client] — props: className, magnification, distance — `src/components/magicui/dock.tsx`
+- **FlickeringGrid** [client] — props: squareSize, gridGap, flickerChance, color, width, height, className, maxOpacity — `src/components/magicui/flickering-grid.tsx`
+- **CodeBlock** [client] — `src/components/mdx/code-block.tsx`
+- **MediaContainer** — props: src, alt, type, className — `src/components/mdx/media-container.tsx`
+- **ModeToggle** [client] — props: className — `src/components/mode-toggle.tsx`
+- **Navbar** — `src/components/navbar.tsx`
+- **ProjectCard** [client] — props: title, href, description, dates, tags, link, image, video, links, className — `src/components/project-card.tsx`
+- **ContactSection** — `src/components/section/contact-section.tsx`
+- **LabSection** — `src/components/section/lab-section.tsx`
+- **ProjectsSection** — `src/components/section/projects-section.tsx`
+- **WorkSection** [client] — `src/components/section/work-section.tsx`
+- **ThemeProvider** [client] — `src/components/theme-provider.tsx`
+- **TimelineConnectItem** — props: className — `src/components/timeline.tsx`
+- **TimelineItem** — props: className — `src/components/timeline.tsx`
+- **Timeline** — props: className, orientation — `src/components/timeline.tsx`
+- **DATA** — `src/data/resume.tsx`
