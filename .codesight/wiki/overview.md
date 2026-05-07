@@ -22,4 +22,4 @@ Changes to these files have the widest blast radius across the codebase:
 - `src/components/lab/bar-row.tsx` — imported by **2** files
 
 ---
-_Back to [index.md](./index.md) · Generated 2026-05-05_
+_Back to [index.md](./index.md) · Generated 2026-05-07_

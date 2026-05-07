@@ -141,7 +141,7 @@ export const DATA = {
     {
       school: "Chaffey College",
       href: "https://chaffey.edu",
-      degree: "Computer Science / Data Science, GPA 3.6",
+      degree: "Computer Science / Data Science",
       logoUrl: "/chaffey.png",
       start: "2018",
       end: "2023",
@@ -150,7 +150,7 @@ export const DATA = {
   projects: [
     {
       title: "Grizzly Getaway",
-      href: "https://bigbear-clover-creations.vercel.app",
+      href: "https://grizzlygetaway.co",
       dates: "Jun 2025 - Present",
       active: true,
       description:
@@ -164,7 +164,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://bigbear-clover-creations.vercel.app",
+          href: "https://grizzlygetaway.co",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -208,7 +208,7 @@ export const DATA = {
     },
     {
       title: "Quantasy",
-      href: "https://github.com/4Clover/quantasy.ai",
+      href: "https://quantasy.ai",
       dates: "May 2025 - Present",
       active: true,
       description:
@@ -221,6 +221,11 @@ export const DATA = {
         "TailwindCSS",
       ],
       links: [
+        {
+          type: "Website",
+          href: "https://quantasy.ai",
+          icon: <Icons.globe className="size-3" />,
+        },
         {
           type: "Source",
           href: "https://github.com/4Clover/quantasy.ai",
