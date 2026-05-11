@@ -22,6 +22,7 @@ import { Figma } from "@/components/ui/svgs/figma";
 import { Slack } from "@/components/ui/svgs/slack";
 import { Aws } from "@/components/ui/svgs/aws";
 import { Azure } from "@/components/ui/svgs/azure";
+import { Amazon } from "@/components/ui/svgs/amazon";
 
 export const DATA = {
   name: "Dillon Mannion",
@@ -127,7 +128,8 @@ export const DATA = {
       badges: [],
       location: "San Bernardino, CA",
       title: "Warehouse Associate — Operations Point of Contact",
-      logoUrl: "/amazon.png",
+      logoUrl: "/amazon.svg",
+      logoIcon: Amazon,
       start: "Feb 2022",
       end: "Jul 2023",
       description:
