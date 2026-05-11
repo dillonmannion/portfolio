@@ -16,10 +16,11 @@ Package manager is `pnpm` (Node >= 18). All commands run from repo root.
 - Lint and autofix: `pnpm lint:fix`
 - Lint a single file: `pnpm lint path/to/file.tsx`
 - Typecheck (no script — invoke directly): `pnpm exec tsc --noEmit`
+- Test all: `pnpm test`
+- Test watch mode: `pnpm test:watch`
+- Test with coverage: `pnpm test:coverage`
 - Add a shadcn component: `pnpm dlx shadcn@latest add <component>` (config in `components.json`, target dir `@/components/ui`)
 - Add a new blog post: drop a `.mdx` file in `content/` matching the schema in `content-collections.ts`
-
-No test runner is configured.
 
 ## Architecture
 
@@ -29,7 +30,7 @@ Single Next.js app with App Router under `src/app/`.
 - `src/app/blog/page.tsx` — paginated blog index (5 per page) sourced from `content-collections`.
 - `src/app/blog/[slug]/page.tsx` — MDX post renderer; `generateStaticParams` enumerates all posts.
 - `src/app/layout.tsx` — root layout, theme provider, navbar, fonts (Geist / Geist Mono), `FlickeringGrid` background.
-- `src/data/resume.tsx` — single source of truth for personal data (~26 KB, imported by 11 files). The file the user edits to "configure" the site.
+- `src/data/resume.tsx` — single source of truth for personal data (~26 KB, imported by 12 files). The file the user edits to "configure" the site.
 - `src/components/ui/` — shadcn primitives plus `svgs/` brand icons (cloudflare, cpp, godot, mongodb, nix, supabase, svelte, etc.).
 - `src/components/magicui/` — animation primitives: `blur-fade` (workhorse, imported by 4 files), `flickering-grid`, `dock`.
 - `src/components/section/` — page-level resume sections used by `app/page.tsx`: `work-section`, `projects-section`, `lab-section`, `contact-section`.
@@ -68,10 +69,11 @@ Path alias `@/*` resolves to `./src/*`. Path alias `content-collections` resolve
 
 ## Testing
 
-No test framework is configured. If adding tests:
+Vitest is configured (`vitest.config.ts`). Test files live under `src/**/*.test.{ts,tsx}` and `tests/**/*.test.{ts,tsx}`.
 
+- Run all: `pnpm test`
+- Watch mode: `pnpm test:watch`
+- Single file: `pnpm test -- src/data/__tests__/resume.test.tsx`
+- Coverage: `pnpm test:coverage`
 - Use Playwright for e2e against meaningful pages (landing, `/blog`, a sample post).
-- Use Vitest for utility coverage (`src/lib/pagination.ts` is the obvious target).
-- Add a corresponding script to `package.json` so it is discoverable.
-
-Until then, manual verification: `pnpm build` succeeds, `pnpm dev` renders `/`, `/blog`, and at least one `/blog/<slug>` without errors.
+- Add new test scripts to `package.json` so they are discoverable.

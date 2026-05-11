@@ -5,7 +5,7 @@
 
 > 0 routes | 0 models | 33 components | 3 lib files | 0 env vars | 0 middleware | 0% test coverage
 > **Token savings:** this file is ~1,800 tokens. Without it, AI exploration would cost ~20,600 tokens. **Saves ~18,800 tokens per conversation.**
-> **Last scanned:** 2026-05-08 19:10 — re-run after significant changes
+> **Last scanned:** 2026-05-11 16:32 — re-run after significant changes
 
 ---
 
@@ -69,9 +69,9 @@
 
 ## Key Dependencies
 
-- next: 16.1.1
-- react: ^19.2.3
-- tailwindcss: ^4.1.18
+- next: ^16.2.6
+- react: ^19.2.6
+- tailwindcss: ^4.3.0
 
 ---
 

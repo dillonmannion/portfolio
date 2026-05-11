@@ -7,6 +7,6 @@
 
 ## Key Dependencies
 
-- next: 16.1.1
-- react: ^19.2.3
-- tailwindcss: ^4.1.18
+- next: ^16.2.6
+- react: ^19.2.6
+- tailwindcss: ^4.3.0
