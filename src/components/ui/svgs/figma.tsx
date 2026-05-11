@@ -1,0 +1,13 @@
+import type { SVGProps } from "react";
+
+const Figma = (props: SVGProps<SVGSVGElement>) => (
+  <svg {...props} viewBox="0 0 24 24">
+    <path d="M4 4C4 1.79 5.79 0 8 0h4v8H8C5.79 8 4 6.21 4 4Z" fill="#F24E1E" />
+    <path d="M12 0h4c2.21 0 4 1.79 4 4s-1.79 4-4 4h-4V0Z" fill="#FF7262" />
+    <path d="M4 12c0-2.21 1.79-4 4-4h4v8H8c-2.21 0-4-1.79-4-4Z" fill="#A259FF" />
+    <path d="M20 12c0 2.21-1.79 4-4 4s-4-1.79-4-4 1.79-4 4-4 4 1.79 4 4Z" fill="#1ABCFE" />
+    <path d="M8 24c2.21 0 4-1.79 4-4v-4H8c-2.21 0-4 1.79-4 4s1.79 4 4 4Z" fill="#0ACF83" />
+  </svg>
+);
+
+export { Figma };

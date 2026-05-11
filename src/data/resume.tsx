@@ -10,8 +10,18 @@ import { Java } from "@/components/ui/svgs/java";
 import { Svelte } from "@/components/ui/svgs/svelte";
 import { Mongodb } from "@/components/ui/svgs/mongodb";
 import { Supabase } from "@/components/ui/svgs/supabase";
-import { Nix } from "@/components/ui/svgs/nix";
 import { Cpp } from "@/components/ui/svgs/cpp";
+import { Word } from "@/components/ui/svgs/word";
+import { Powerpoint } from "@/components/ui/svgs/powerpoint";
+import { Excel } from "@/components/ui/svgs/excel";
+import { Powerbi } from "@/components/ui/svgs/powerbi";
+import { GoogleWorkspace } from "@/components/ui/svgs/google-workspace";
+import { Notion } from "@/components/ui/svgs/notion";
+import { Linear } from "@/components/ui/svgs/linear";
+import { Figma } from "@/components/ui/svgs/figma";
+import { Slack } from "@/components/ui/svgs/slack";
+import { Aws } from "@/components/ui/svgs/aws";
+import { Azure } from "@/components/ui/svgs/azure";
 
 export const DATA = {
   name: "Dillon Mannion",
@@ -20,23 +30,43 @@ export const DATA = {
   location: "Rancho Cucamonga, CA",
   locationLink: "https://www.google.com/maps/place/rancho+cucamonga+ca",
   description:
-    "Operations and systems-implementation builder bridging frontline fulfillment experience with end-to-end delivery of business operations platforms across booking, scheduling, finance, and tax workflows.",
+    "CS graduate with wide-reaching interests and a bias toward making things faster, simpler, and more reliable — from warehouse throughput to booking platforms to game engines. Competitive water polo gave me a decade of learning how teams win, and I bring that same energy to every project I ship.",
   summary:
-    "I take [projects](/#projects) from discovery to launch — scoping requirements with stakeholders, designing data models, and shipping production systems that handle real traffic and real money. My background in [warehouse operations and customer-facing roles](/#work) taught me how processes break at scale, and I carry that into every system I build: cutting complexity, streamlining repeatable processes, and leaving clear documentation behind. Outside client work I'm in the [lab](/#lab) experimenting with MCP servers, browser extensions, Nix configs, and data analysis.",
+    "I spend most of my time [building things](/#projects) and finding ways to integrate AI into any part of my life that can use automation or a second pair of eyes. I tend to notice where processes are slower or messier than they need to be, and I genuinely enjoy writing the documentation that keeps things from falling apart. When I'm not coding I'm usually [tinkering](/#lab) — automating parts of my workflow, running financial analysis on stocks, or picking up something I've never tried before.",
   avatarUrl: "/me.png",
   skills: [
-    { name: "TypeScript", icon: Typescript },
-    { name: "React", icon: ReactLight },
-    { name: "Next.js", icon: NextjsIconDark },
-    { name: "Svelte", icon: Svelte },
-    { name: "Python", icon: Python },
-    { name: "C++", icon: Cpp },
-    { name: "Java", icon: Java },
-    { name: "Node.js", icon: Nodejs },
-    { name: "Supabase", icon: Supabase },
-    { name: "MongoDB", icon: Mongodb },
-    { name: "Postgres", icon: Postgresql },
-    { name: "Nix", icon: Nix },
+    {
+      category: "Development",
+      items: [
+        { name: "TypeScript", icon: Typescript },
+        { name: "React", icon: ReactLight },
+        { name: "Next.js", icon: NextjsIconDark },
+        { name: "Svelte", icon: Svelte },
+        { name: "Python", icon: Python },
+        { name: "C++", icon: Cpp },
+        { name: "Java", icon: Java },
+        { name: "Node.js", icon: Nodejs },
+        { name: "Supabase", icon: Supabase },
+        { name: "MongoDB", icon: Mongodb },
+        { name: "Postgres", icon: Postgresql },
+      ],
+    },
+    {
+      category: "Business & Productivity",
+      items: [
+        { name: "Word", icon: Word },
+        { name: "PowerPoint", icon: Powerpoint },
+        { name: "Excel", icon: Excel },
+        { name: "Power BI", icon: Powerbi },
+        { name: "Google Workspace", icon: GoogleWorkspace },
+        { name: "Notion", icon: Notion },
+        { name: "Linear", icon: Linear },
+        { name: "Figma", icon: Figma },
+        { name: "Slack", icon: Slack },
+        { name: "AWS", icon: Aws },
+        { name: "Azure", icon: Azure },
+      ],
+    },
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
