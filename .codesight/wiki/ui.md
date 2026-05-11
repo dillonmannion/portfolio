@@ -17,6 +17,7 @@
 - **FlickeringGrid** — props: squareSize, gridGap, flickerChance, color, width, height, className, maxOpacity — `src/components/magicui/flickering-grid.tsx`
 - **CodeBlock** — `src/components/mdx/code-block.tsx`
 - **ModeToggle** — props: className — `src/components/mode-toggle.tsx`
+- **Navbar** — `src/components/navbar.tsx`
 - **ProjectCard** — props: title, href, description, dates, tags, link, image, video, links, className — `src/components/project-card.tsx`
 - **WorkSection** — `src/components/section/work-section.tsx`
 - **ThemeProvider** — `src/components/theme-provider.tsx`
@@ -34,7 +35,6 @@
 - **Icons** — `src/components/icons.tsx`
 - **BarRow** — props: label, value, percent, labelWidth — `src/components/lab/bar-row.tsx`
 - **MediaContainer** — props: src, alt, type, className — `src/components/mdx/media-container.tsx`
-- **Navbar** — `src/components/navbar.tsx`
 - **ContactSection** — `src/components/section/contact-section.tsx`
 - **LabSection** — `src/components/section/lab-section.tsx`
 - **ProjectsSection** — `src/components/section/projects-section.tsx`

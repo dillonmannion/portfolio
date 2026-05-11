@@ -22,7 +22,7 @@
 - **CodeBlock** [client] — `src/components/mdx/code-block.tsx`
 - **MediaContainer** — props: src, alt, type, className — `src/components/mdx/media-container.tsx`
 - **ModeToggle** [client] — props: className — `src/components/mode-toggle.tsx`
-- **Navbar** — `src/components/navbar.tsx`
+- **Navbar** [client] — `src/components/navbar.tsx`
 - **ProjectCard** [client] — props: title, href, description, dates, tags, link, image, video, links, className — `src/components/project-card.tsx`
 - **ContactSection** — `src/components/section/contact-section.tsx`
 - **LabSection** — `src/components/section/lab-section.tsx`

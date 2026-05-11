@@ -8,6 +8,7 @@ import { ChevronRight } from "lucide-react";
 export const metadata: Metadata = {
   title: "Blog",
   description: "Thoughts on software development, life, and more.",
+  robots: { index: false, follow: false },
   openGraph: {
     title: "Blog",
     description: "Thoughts on software development, life, and more.",

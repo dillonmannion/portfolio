@@ -5,7 +5,7 @@
 
 > 0 routes | 0 models | 33 components | 3 lib files | 0 env vars | 0 middleware | 0% test coverage
 > **Token savings:** this file is ~1,800 tokens. Without it, AI exploration would cost ~20,600 tokens. **Saves ~18,800 tokens per conversation.**
-> **Last scanned:** 2026-05-11 16:32 — re-run after significant changes
+> **Last scanned:** 2026-05-11 17:23 — re-run after significant changes
 
 ---
 
@@ -33,7 +33,7 @@
 - **CodeBlock** [client] — `src/components/mdx/code-block.tsx`
 - **MediaContainer** — props: src, alt, type, className — `src/components/mdx/media-container.tsx`
 - **ModeToggle** [client] — props: className — `src/components/mode-toggle.tsx`
-- **Navbar** — `src/components/navbar.tsx`
+- **Navbar** [client] — `src/components/navbar.tsx`
 - **ProjectCard** [client] — props: title, href, description, dates, tags, link, image, video, links, className — `src/components/project-card.tsx`
 - **ContactSection** — `src/components/section/contact-section.tsx`
 - **LabSection** — `src/components/section/lab-section.tsx`
