@@ -3,9 +3,9 @@
 > **Stack:** next-app | none | react | typescript
 > **Monorepo:** 
 
-> 0 routes | 0 models | 33 components | 3 lib files | 0 env vars | 0 middleware | 0% test coverage
-> **Token savings:** this file is ~1,800 tokens. Without it, AI exploration would cost ~20,600 tokens. **Saves ~18,800 tokens per conversation.**
-> **Last scanned:** 2026-05-11 19:15 — re-run after significant changes
+> 0 routes | 0 models | 31 components | 3 lib files | 0 env vars | 0 middleware | 0% test coverage
+> **Token savings:** this file is ~1,800 tokens. Without it, AI exploration would cost ~20,000 tokens. **Saves ~18,200 tokens per conversation.**
+> **Last scanned:** 2026-05-30 09:30 — re-run after significant changes
 
 ---
 
@@ -14,7 +14,7 @@
 - **Image** — props: params — `src/app/blog/[slug]/opengraph-image.tsx`
 - **Blog** — props: params — `src/app/blog/[slug]/page.tsx`
 - **Image** — `src/app/blog/opengraph-image.tsx`
-- **BlogPage** — props: searchParams — `src/app/blog/page.tsx`
+- **PAGE_SIZE** — `src/app/blog/page.tsx`
 - **RootLayout** — `src/app/layout.tsx`
 - **NotFound** — `src/app/not-found.tsx`
 - **Image** — `src/app/opengraph-image.tsx`
@@ -34,15 +34,13 @@
 - **MediaContainer** — props: src, alt, type, className — `src/components/mdx/media-container.tsx`
 - **ModeToggle** [client] — props: className — `src/components/mode-toggle.tsx`
 - **Navbar** [client] — `src/components/navbar.tsx`
-- **ProjectCard** [client] — props: title, href, description, dates, tags, link, image, video, links, className — `src/components/project-card.tsx`
+- **ProjectCard** — props: title, href, description, dates, tags, link, image, video, links, icon — `src/components/project-card.tsx`
 - **ContactSection** — `src/components/section/contact-section.tsx`
 - **LabSection** — `src/components/section/lab-section.tsx`
 - **ProjectsSection** — `src/components/section/projects-section.tsx`
-- **WorkSection** [client] — `src/components/section/work-section.tsx`
+- **WorkSection** — `src/components/section/work-section.tsx`
 - **ThemeProvider** [client] — `src/components/theme-provider.tsx`
 - **TimelineConnectItem** — props: className — `src/components/timeline.tsx`
-- **TimelineItem** — props: className — `src/components/timeline.tsx`
-- **Timeline** — props: className, orientation — `src/components/timeline.tsx`
 - **DATA** — `src/data/resume.tsx`
 
 ---

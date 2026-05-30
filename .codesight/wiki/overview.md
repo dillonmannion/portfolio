@@ -6,9 +6,9 @@
 
 ## Scale
 
-33 UI components · 3 library files
+31 UI components · 3 library files
 
-**UI:** 33 components (react) — see [ui.md](./ui.md)
+**UI:** 31 components (react) — see [ui.md](./ui.md)
 
 ## High-Impact Files
 
@@ -22,4 +22,4 @@ Changes to these files have the widest blast radius across the codebase:
 - `src/components/lab/bar-row.tsx` — imported by **2** files
 
 ---
-_Back to [index.md](./index.md) · Generated 2026-05-11_
+_Back to [index.md](./index.md) · Generated 2026-05-30_

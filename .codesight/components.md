@@ -3,7 +3,7 @@
 - **Image** — props: params — `src/app/blog/[slug]/opengraph-image.tsx`
 - **Blog** — props: params — `src/app/blog/[slug]/page.tsx`
 - **Image** — `src/app/blog/opengraph-image.tsx`
-- **BlogPage** — props: searchParams — `src/app/blog/page.tsx`
+- **PAGE_SIZE** — `src/app/blog/page.tsx`
 - **RootLayout** — `src/app/layout.tsx`
 - **NotFound** — `src/app/not-found.tsx`
 - **Image** — `src/app/opengraph-image.tsx`
@@ -23,13 +23,11 @@
 - **MediaContainer** — props: src, alt, type, className — `src/components/mdx/media-container.tsx`
 - **ModeToggle** [client] — props: className — `src/components/mode-toggle.tsx`
 - **Navbar** [client] — `src/components/navbar.tsx`
-- **ProjectCard** [client] — props: title, href, description, dates, tags, link, image, video, links, className — `src/components/project-card.tsx`
+- **ProjectCard** — props: title, href, description, dates, tags, link, image, video, links, icon — `src/components/project-card.tsx`
 - **ContactSection** — `src/components/section/contact-section.tsx`
 - **LabSection** — `src/components/section/lab-section.tsx`
 - **ProjectsSection** — `src/components/section/projects-section.tsx`
-- **WorkSection** [client] — `src/components/section/work-section.tsx`
+- **WorkSection** — `src/components/section/work-section.tsx`
 - **ThemeProvider** [client] — `src/components/theme-provider.tsx`
 - **TimelineConnectItem** — props: className — `src/components/timeline.tsx`
-- **TimelineItem** — props: className — `src/components/timeline.tsx`
-- **Timeline** — props: className, orientation — `src/components/timeline.tsx`
 - **DATA** — `src/data/resume.tsx`

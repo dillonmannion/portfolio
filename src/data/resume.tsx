@@ -105,7 +105,7 @@ export const DATA = {
       location: "Remote",
       title: "Business Systems Developer",
       logoUrl: "/fleuron-glyph.svg",
-      start: "2024",
+      start: "2023",
       end: "Present",
       description:
         "Designed and delivered full-stack business operations platforms for small-business clients, covering booking, scheduling, finance tracking, and tax-deduction workflows. Built a live cabin-rental site with availability calendar and back-office deduction tracking. Shipped a production salon booking system with multi-step scheduling, customer portal, admin dashboard, OAuth, and internationalization in three languages. Developed a multi-tenant SaaS pattern extending the booking core with per-business sites, employee management, and finance modules. Scoped requirements through stakeholder interviews, translated business processes into data models, and maintained CI/CD pipelines on Vercel and Cloudflare.",
